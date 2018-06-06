@@ -8,14 +8,19 @@
 <script>
   const key = 'abc123';
   let points = 50;
-  let winner = false;
+  let winnner = false;
 
   const person = {
-    name: 'Wes',
-    age: 28
+    name: "scott",
+    age: 29
   }
 
-  const wes = Object.freeze(person);
+  console.log(person.name);
+
+  person.name = "John";
+
+  console.log(person.name);
+
 
 </script>
 </body>
